@@ -1,0 +1,13 @@
+export CATALINA_BASE=/Applications/tomcat/
+alias cdjdk="cd /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home"
+alias cdmvn="cd /usr/local/apache-maven-3.3.3/bin/mvn"
+alias cdtombin="cd /Applications/tomcat/bin"
+alias cdtomweb="cd /Applications/tomcat/webapps"
+alias cdtomconf="cd /Applications/tomcat/conf"
+alias cdmysql="cd /usr/local/mysql/bin"
+alias cdgit="cd /Users/nickmaiorano/Documents/git"
+alias cdwork="cd /Users/nickmaiorano/Documents/Training/Cisco"
+alias tomstart="/Applications/tomcat/bin/catalina.sh start"
+alias tomstop="/Applications/tomcat/bin/catalina.sh stop"
+alias tomlist="netstat -an | grep -e 8080 -e 8443"
+alias pe="java -cp /Applications/tomcat/webapps/sforums/WEB-INF/classes:/Applications/tomcat/webapps/sforums/WEB-INF/lib/spring-security-core-3.2.4.RELEASE.jar com.marakana.sforums.service.PasswordEncoderMain"
